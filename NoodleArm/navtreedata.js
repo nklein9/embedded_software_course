@@ -24,7 +24,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "NoodleArm", "index.html", [
-    [ "NoodleArm", "md__r_e_a_d_m_e.html", null ],
+    [ "Modules", "modules.html", "modules" ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [

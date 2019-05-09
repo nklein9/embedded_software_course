@@ -89,6 +89,47 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="title">NoodleArm Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
+  <h1>Goals and Motivation:</h1>
+The final project for Embedded Software is intended to teach students about creating and using modular portable software and how to create a component of a larger project that can work with other students' projects by wireless communication. For the Spring 2019 semester each group in the class was to create a trap, obstacle, or puzzle as part of a network in a Thief Simulation game.
+
+<h2>Hardware Composition</h2>
+The NoodleArm trap is comprised of a 2' tall stand made of a metal plate and a 3/8" thick all thread rod on which a 12V brushed DC motor is mounted, a 3' pool noodle arm is attatched to the motor at a 90 degree angle so it spins in a horizontal circle, an H-Bridge circuit driven by an MSP430f5529 microcontroller which controls the direction of the motor movement using two digital I/O pins which each control one side of the H-Bridge, an arduino vibration sensor attatched to the stand near the motor which delivers a signal to the microcontroller's analog to digital converter when the arm makes an impact with enough force to make the stand shake slightly, and an NRF24L01+ chip which communicates with the Brainframe that organizes the project nodes.
+
+<h3>Design Process</h3>
+The initial idea for the trap was to have a motor on a stand, connected to an H-bridge, and a current sensor detecting a current spike when the motor stalled due to an impact. It became quickly apparent once the build began that sensing a change in current in such a way as to send a voltage signal into the microcontroller for processing is a very specific task which requires expensive sensors that wouldn't arrive in time for the build. Eventually it was decided on to use an arduino vibration sensor as a minimum viable solution due to having one on hand. During the build process three total motors have been used, the first broke and no longer spun at all, the second had too much torque and would spin the base which twisted the wiring before it detcted a hit, and the third was very weak and couldn't spin quickly enough to be a challenging trap. The third is the option used in the final presentation. A 3D printed mount was created to attatch the pool noodle to the motor. The mount was affixed to the motor with steel epoxy since the final motor's output shaft is a smooth pin. It was intended that the difficulty value would alter the pwm to the motor, changing the speed. However due to the lack of power in the final motor the idea was scrapped and the difficulty was changed to the penalty value.
+
+<h3>Photos</h3>
+<h4>Full Assembly</h4>
+<img src="https://github.com/nklein9/NoodleArm/blob/master/fullAssembly.jpg?raw=true">
+
+<h4>Motor and Sensor</h4>
+<img src="https://github.com/nklein9/NoodleArm/blob/master/motorAndSensor.jpg?raw=true">
+
+<h4>H-Bridge</h4>
+<img src="https://github.com/nklein9/NoodleArm/blob/master/HBridge.jpg?raw=true">
+
+<h4>Board and NRF</h4>
+<img src="https://github.com/nklein9/NoodleArm/blob/master/boardFront.jpg?raw=true">
+
+<h2>Operation & Use</h2>
+The trap begins in a neutral disarmed state where the arm does not move and no penalties can be accumulated. The system can be armed by sending the '$Trap Arm' command via a serial terminal or by recieving the arm command from the Brainframe. Once armed the arm begins to swing until it makes an impact with something where it sends a penalty equal to the programmed difficulty (10 by default) in seconds to the brainframe, this also causes the motor to reverse direction. It continues to swing until the trap recieves the '$trap disarm' command from the terminal or brainframe. At any time the commands '$trap trip' and '$trap difficulty [value]' can be entered to force the trap to recieve an impact signal or to change the difficulty value.
+
+<h3>Supported Callbacks</h3>
+<ul>
+  <li>$trap arm</li>
+  <li>$trap disarm</li>
+  <li>$trap trip</li>
+  <li>$trap difficulty </li>
+</ul>
+
+<h2>Conclusions and Results</h2>
+The final result of the project was moderate sucess. The basic model for the NoodleArm trap is functional but strayed from the origional design idea due to material constraints. Additionally issues communicating with the Brainframe arose where commands and signals weren't processed correctly seemingly at random times. It's likely due to a poor soldering job on the NRF chip's mounting board.
+
+<h2>The Helpfulness of Slack</h2>
+Slack allowed fast communication between group and classmates to deal with issues and misunderstandings while creating the traps. It also served as a bullitin board to keep track of important information, a place to host and transfer files. Slack is very efficient for asking questions or sharing relevant information.
+
+<h2>The Helpfulness of Trello</h2>
+Trello organized the tasks nessisary for the projects and homework so that they were easy to track. The visual nature of the Trello board is extremely helpful for determining where in a process each task is and what each group member is working on.
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

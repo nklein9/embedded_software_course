@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fcpu',['FCPU',['../project__settings_8h.html#a9d4ad5467cb8a39312513dfaaf4d950a',1,'project_settings.h']]]
+  ['rf_5fspi_5fch',['RF_SPI_CH',['../main_8c.html#a3058dffb8454f360c644de1526dab07d',1,'main.c']]]
 ];

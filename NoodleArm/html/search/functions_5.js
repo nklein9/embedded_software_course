@@ -7,13 +7,5 @@ var searchData=
   ['rf1_5finit',['RF1_Init',['../main_8c.html#a9387a6aa9dce14b7a6982d5f99812a31',1,'main.c']]],
   ['rf1_5fmaxretrieshandler',['RF1_MaxRetriesHandler',['../main_8c.html#a95b147cf5cd9227524af96bf9cdea713',1,'main.c']]],
   ['rf1_5fpollirq',['RF1_PollIRQ',['../main_8c.html#a52353d23ef8aff5bd49f82de22f6167f',1,'main.c']]],
-  ['rf1_5frxpayloadhandler',['RF1_RxPayloadHandler',['../main_8c.html#a1dbb4b23ce0ca75aea47bd8dfd86748c',1,'main.c']]],
-  ['rf2_5fackpayloadhandler',['RF2_AckPayloadHandler',['../main_8c.html#a28ce55dbb13886d2c8631c2f3a2016c2',1,'main.c']]],
-  ['rf2_5fackreceivedhandler',['RF2_AckReceivedHandler',['../main_8c.html#ae641b1ccf333d15aa5e01ce7b8bef86f',1,'main.c']]],
-  ['rf2_5fce',['RF2_CE',['../main_8c.html#a16834c8585b7a6245c9e734ec93f4f1b',1,'main.c']]],
-  ['rf2_5fcsn',['RF2_CSN',['../main_8c.html#a45daf7197aa91f24410aa61284f58101',1,'main.c']]],
-  ['rf2_5finit',['RF2_Init',['../main_8c.html#a663703a112758bd898ce9fefd797a49d',1,'main.c']]],
-  ['rf2_5fmaxretrieshandler',['RF2_MaxRetriesHandler',['../main_8c.html#a1a5dcf8ce3751fccd66d070f6a87ef20',1,'main.c']]],
-  ['rf2_5fpollirq',['RF2_PollIRQ',['../main_8c.html#abd15bacd96445bd92ed09339b1025599',1,'main.c']]],
-  ['rf2_5frxpayloadhandler',['RF2_RxPayloadHandler',['../main_8c.html#a1e32aa48de39aa05f593d7677f795184',1,'main.c']]]
+  ['rf1_5frxpayloadhandler',['RF1_RxPayloadHandler',['../main_8c.html#a1dbb4b23ce0ca75aea47bd8dfd86748c',1,'main.c']]]
 ];

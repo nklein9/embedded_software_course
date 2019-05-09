@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['main',['main',['../main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.c']]],
-  ['main_2ec',['main.c',['../main_8c.html',1,'']]],
-  ['main_2ed',['main.d',['../main_8d.html',1,'']]]
+  ['setclk24mhz',['SetClk24MHz',['../main_8c.html#a64b878d501fb34301b9fd91173299318',1,'main.c']]],
+  ['sethbridge',['SetHBridge',['../main_8c.html#a0e662f3ebfd5bc16a03e7197bb6e09a8',1,'main.c']]],
+  ['setvcoreup',['SetVcoreUp',['../main_8c.html#a8577ab9a35e953d16cf2554c3252c49c',1,'main.c']]]
 ];

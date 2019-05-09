@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['buffer_2ed',['buffer.d',['../buffer_8d.html',1,'']]],
-  ['buffer_5fprintf_2ed',['buffer_printf.d',['../buffer__printf_8d.html',1,'']]]
+  ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]]
 ];

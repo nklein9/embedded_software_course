@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['brainframe_5fnet',['Brainframe_Net',['../main_8c.html#a1a9158965315411a75d3985c899391d7',1,'main.c']]],
-  ['buffer_2ed',['buffer.d',['../buffer_8d.html',1,'']]],
-  ['buffer_5fprintf_2ed',['buffer_printf.d',['../buffer__printf_8d.html',1,'']]]
+  ['difficulty',['Difficulty',['../main_8c.html#a1475f1f82bcf489d2a4859a8e8a5fff8',1,'main.c']]],
+  ['disarm',['Disarm',['../main_8c.html#a3ca20943ab34a0d560cd22d88c0ba324',1,'main.c']]]
 ];

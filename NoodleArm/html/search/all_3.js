@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['fcpu',['FCPU',['../project__settings_8h.html#a9d4ad5467cb8a39312513dfaaf4d950a',1,'project_settings.h']]]
+  ['main',['main',['../main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.c']]],
+  ['main_2ec',['main.c',['../main_8c.html',1,'']]]
 ];

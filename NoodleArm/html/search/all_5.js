@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['impact',['impact',['../main_8c.html#a0a538587c974b974593af49d9cd34377',1,'main.c']]]
+  ['printadcvalue',['printADCValue',['../main_8c.html#a47bf528fa9b9ed3a252b17ee809b6f22',1,'main.c']]]
 ];
